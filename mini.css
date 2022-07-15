@@ -1,0 +1,62 @@
+*{
+    background-color: rgb(6 23 36);
+}
+body{
+    text-align: center;
+}
+.font{
+    font-family: 'Bree Serif', serif;
+    color: white;
+    text-align: center;
+}
+.image{
+    width: 600px;
+    height: 400px;
+}
+.quotes {
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+#logo{
+    margin: 10px 34px;
+}
+nav{
+    display: flex;
+    align-items: right;
+    position: relative;
+    top: 0px;
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.imgleft{
+    float: left;
+    padding: 50px;
+}
+.pright{
+    color: white;
+    padding-top: 40px;
+    /* padding-bottom: 212px; */
+    margin-bottom: 212px;
+}
